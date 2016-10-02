@@ -33,9 +33,6 @@
 //###########################################
 - (id) init {
 
-    NSLog(@"/###########################################");
-    NSLog(@"%@", NSStringFromSelector(_cmd));
-    NSLog(@"/###########################################");
     self = [super init];
 
     if (self) {
@@ -48,9 +45,6 @@
 //###########################################
 - (id) initWithCoder:(NSCoder *)aDecoder {
 
-    NSLog(@"/###########################################");
-    NSLog(@"%@", NSStringFromSelector(_cmd));
-    NSLog(@"/###########################################");
     self = [super initWithCoder:aDecoder];
 
     if (self) {
@@ -63,9 +57,6 @@
 //###########################################
 - (id) initWithFrame:(CGRect)frame {
 
-    NSLog(@"/###########################################");
-    NSLog(@"%@", NSStringFromSelector(_cmd));
-    NSLog(@"/###########################################");
     self = [super initWithFrame:frame];
 
     if (self) {
@@ -91,8 +82,8 @@
     self.adjustsImageWhenDisabled    = NO;
 
     [self configureTitle];
-    [self configureBackground];
     [self configureImage];
+    [self configureBackground];
     [self mirrorHorizontally];
 
     [self updateUI];
