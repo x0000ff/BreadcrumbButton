@@ -16,7 +16,7 @@
 		DB9DB9401DA14FE5003FF0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9DB93F1DA14FE5003FF0FB /* Assets.xcassets */; };
 		DB9DB9431DA14FE5003FF0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9DB9411DA14FE5003FF0FB /* LaunchScreen.storyboard */; };
 		DB9DB94C1DA14FFC003FF0FB /* BreadcrumbButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB94B1DA14FFC003FF0FB /* BreadcrumbButton.m */; };
-		DB9DB9541DA1510F003FF0FB /* BreadcrumbsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB9531DA1510F003FF0FB /* BreadcrumbsTests.m */; };
+		DB9DB9541DA1510F003FF0FB /* BreadcrumbButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB9531DA1510F003FF0FB /* BreadcrumbButtonTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,7 @@
 		DB9DB94A1DA14FFC003FF0FB /* BreadcrumbButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreadcrumbButton.h; sourceTree = "<group>"; };
 		DB9DB94B1DA14FFC003FF0FB /* BreadcrumbButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreadcrumbButton.m; sourceTree = "<group>"; };
 		DB9DB9511DA1510F003FF0FB /* BreadcrumbsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreadcrumbsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB9DB9531DA1510F003FF0FB /* BreadcrumbsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreadcrumbsTests.m; sourceTree = "<group>"; };
+		DB9DB9531DA1510F003FF0FB /* BreadcrumbButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreadcrumbButtonTests.m; sourceTree = "<group>"; };
 		DB9DB9551DA1510F003FF0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,7 +131,7 @@
 		DB9DB9521DA1510F003FF0FB /* BreadcrumbsTests */ = {
 			isa = PBXGroup;
 			children = (
-				DB9DB9531DA1510F003FF0FB /* BreadcrumbsTests.m */,
+				DB9DB9531DA1510F003FF0FB /* BreadcrumbButtonTests.m */,
 				DB9DB9551DA1510F003FF0FB /* Info.plist */,
 			);
 			path = BreadcrumbsTests;
@@ -358,7 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB9DB9541DA1510F003FF0FB /* BreadcrumbsTests.m in Sources */,
+				DB9DB9541DA1510F003FF0FB /* BreadcrumbButtonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
