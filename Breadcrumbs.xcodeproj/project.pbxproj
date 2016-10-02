@@ -14,7 +14,18 @@
 		DB9DB9401DA14FE5003FF0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9DB93F1DA14FE5003FF0FB /* Assets.xcassets */; };
 		DB9DB9431DA14FE5003FF0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9DB9411DA14FE5003FF0FB /* LaunchScreen.storyboard */; };
 		DB9DB94C1DA14FFC003FF0FB /* BreadcrumbButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB94B1DA14FFC003FF0FB /* BreadcrumbButton.m */; };
+		DB9DB9541DA1510F003FF0FB /* BreadcrumbsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB9531DA1510F003FF0FB /* BreadcrumbsTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB9DB9561DA1510F003FF0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9DB9281DA14FE5003FF0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9DB92F1DA14FE5003FF0FB;
+			remoteInfo = Breadcrumbs;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DB9DB9301DA14FE5003FF0FB /* Breadcrumbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breadcrumbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,10 +40,20 @@
 		DB9DB9441DA14FE5003FF0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB9DB94A1DA14FFC003FF0FB /* BreadcrumbButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreadcrumbButton.h; sourceTree = "<group>"; };
 		DB9DB94B1DA14FFC003FF0FB /* BreadcrumbButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreadcrumbButton.m; sourceTree = "<group>"; };
+		DB9DB9511DA1510F003FF0FB /* BreadcrumbsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreadcrumbsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9DB9531DA1510F003FF0FB /* BreadcrumbsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreadcrumbsTests.m; sourceTree = "<group>"; };
+		DB9DB9551DA1510F003FF0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DB9DB92D1DA14FE5003FF0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9DB94E1DA1510F003FF0FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				DB9DB9321DA14FE5003FF0FB /* Breadcrumbs */,
+				DB9DB9521DA1510F003FF0FB /* BreadcrumbsTests */,
 				DB9DB9311DA14FE5003FF0FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				DB9DB9301DA14FE5003FF0FB /* Breadcrumbs.app */,
+				DB9DB9511DA1510F003FF0FB /* BreadcrumbsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +107,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DB9DB9521DA1510F003FF0FB /* BreadcrumbsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9DB9531DA1510F003FF0FB /* BreadcrumbsTests.m */,
+				DB9DB9551DA1510F003FF0FB /* Info.plist */,
+			);
+			path = BreadcrumbsTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,6 +136,24 @@
 			productReference = DB9DB9301DA14FE5003FF0FB /* Breadcrumbs.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DB9DB9501DA1510F003FF0FB /* BreadcrumbsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9DB9581DA1510F003FF0FB /* Build configuration list for PBXNativeTarget "BreadcrumbsTests" */;
+			buildPhases = (
+				DB9DB94D1DA1510F003FF0FB /* Sources */,
+				DB9DB94E1DA1510F003FF0FB /* Frameworks */,
+				DB9DB94F1DA1510F003FF0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9DB9571DA1510F003FF0FB /* PBXTargetDependency */,
+			);
+			name = BreadcrumbsTests;
+			productName = BreadcrumbsTests;
+			productReference = DB9DB9511DA1510F003FF0FB /* BreadcrumbsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -115,6 +165,10 @@
 				TargetAttributes = {
 					DB9DB92F1DA14FE5003FF0FB = {
 						CreatedOnToolsVersion = 7.3.1;
+					};
+					DB9DB9501DA1510F003FF0FB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DB9DB92F1DA14FE5003FF0FB;
 					};
 				};
 			};
@@ -132,6 +186,7 @@
 			projectRoot = "";
 			targets = (
 				DB9DB92F1DA14FE5003FF0FB /* Breadcrumbs */,
+				DB9DB9501DA1510F003FF0FB /* BreadcrumbsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -144,6 +199,13 @@
 				DB9DB9431DA14FE5003FF0FB /* LaunchScreen.storyboard in Resources */,
 				DB9DB9401DA14FE5003FF0FB /* Assets.xcassets in Resources */,
 				DB9DB93E1DA14FE5003FF0FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9DB94F1DA1510F003FF0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +223,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB9DB94D1DA1510F003FF0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9DB9541DA1510F003FF0FB /* BreadcrumbsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB9DB9571DA1510F003FF0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9DB92F1DA14FE5003FF0FB /* Breadcrumbs */;
+			targetProxy = DB9DB9561DA1510F003FF0FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DB9DB93C1DA14FE5003FF0FB /* Main.storyboard */ = {
@@ -287,6 +365,30 @@
 			};
 			name = Release;
 		};
+		DB9DB9591DA1510F003FF0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BreadcrumbsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.x0000ff.BreadcrumbsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breadcrumbs.app/Breadcrumbs";
+			};
+			name = Debug;
+		};
+		DB9DB95A1DA1510F003FF0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BreadcrumbsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.x0000ff.BreadcrumbsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breadcrumbs.app/Breadcrumbs";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -304,6 +406,14 @@
 			buildConfigurations = (
 				DB9DB9481DA14FE5003FF0FB /* Debug */,
 				DB9DB9491DA14FE5003FF0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB9DB9581DA1510F003FF0FB /* Build configuration list for PBXNativeTarget "BreadcrumbsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9DB9591DA1510F003FF0FB /* Debug */,
+				DB9DB95A1DA1510F003FF0FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
