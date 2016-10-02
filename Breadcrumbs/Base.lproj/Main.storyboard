@@ -48,20 +48,20 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isSelected" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </button>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pJh-al-ZO1">
-                                        <rect key="frame" x="14" y="46" width="51" height="31"/>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pJh-al-ZO1">
+                                        <rect key="frame" x="15" y="46" width="51" height="31"/>
                                         <connections>
                                             <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="W6Y-Ng-yFw"/>
                                         </connections>
                                     </switch>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hXQ-Z7-8p0">
-                                        <rect key="frame" x="92.5" y="46" width="51" height="31"/>
+                                        <rect key="frame" x="93" y="46" width="51" height="31"/>
                                         <connections>
                                             <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="i3t-Hn-gkZ"/>
                                         </connections>
                                     </switch>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9aS-8w-zPH">
-                                        <rect key="frame" x="198.5" y="46" width="51" height="31"/>
+                                        <rect key="frame" x="198" y="46" width="51" height="31"/>
                                         <connections>
                                             <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="hJw-b0-OmN"/>
                                         </connections>
