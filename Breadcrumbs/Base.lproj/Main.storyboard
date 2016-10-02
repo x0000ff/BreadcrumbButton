@@ -19,32 +19,76 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wXY-84-5fv">
-                                <rect key="frame" x="20" y="28" width="560" height="128"/>
+                                <rect key="frame" x="20" y="28" width="560" height="85"/>
                                 <subviews>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pJh-al-ZO1">
-                                        <rect key="frame" x="8" y="89" width="51" height="31"/>
-                                        <connections>
-                                            <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="W6Y-Ng-yFw"/>
-                                        </connections>
-                                    </switch>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMP-Gx-xN8" customClass="BreadcrumbButton">
-                                        <rect key="frame" x="8" y="8" width="76" height="30"/>
+                                        <rect key="frame" x="8" y="8" width="63" height="30"/>
                                         <inset key="contentEdgeInsets" minX="8" minY="4" maxX="4" maxY="4"/>
                                         <inset key="imageEdgeInsets" minX="-7" minY="2" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="Button" image="ic-arrow"/>
+                                        <state key="normal" title="Chile" image="ic-arrow"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isSelected" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5On-dr-mAS" customClass="BreadcrumbButton">
+                                        <rect key="frame" x="71" y="8" width="93" height="30"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="4" maxX="4" maxY="4"/>
+                                        <inset key="imageEdgeInsets" minX="-7" minY="2" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Santiago" image="ic-arrow"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSelected" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bF-D3-LRj" customClass="BreadcrumbButton">
+                                        <rect key="frame" x="164" y="8" width="118" height="30"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="4" maxX="4" maxY="4"/>
+                                        <inset key="imageEdgeInsets" minX="-7" minY="2" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Las Condes" image="ic-arrow"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSelected" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pJh-al-ZO1">
+                                        <rect key="frame" x="14" y="46" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="W6Y-Ng-yFw"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hXQ-Z7-8p0">
+                                        <rect key="frame" x="92.5" y="46" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="i3t-Hn-gkZ"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9aS-8w-zPH">
+                                        <rect key="frame" x="198.5" y="46" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="hJw-b0-OmN"/>
+                                        </connections>
+                                    </switch>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="pJh-al-ZO1" firstAttribute="top" secondItem="zMP-Gx-xN8" secondAttribute="bottom" constant="8" id="3Gn-Ff-EFH"/>
                                     <constraint firstItem="zMP-Gx-xN8" firstAttribute="leading" secondItem="wXY-84-5fv" secondAttribute="leading" constant="8" id="B41-zR-Jpb"/>
-                                    <constraint firstItem="pJh-al-ZO1" firstAttribute="leading" secondItem="wXY-84-5fv" secondAttribute="leading" constant="8" id="Su4-8M-JhK"/>
+                                    <constraint firstItem="7bF-D3-LRj" firstAttribute="top" secondItem="wXY-84-5fv" secondAttribute="top" constant="8" id="CaN-Q8-GxB"/>
+                                    <constraint firstItem="hXQ-Z7-8p0" firstAttribute="centerX" secondItem="5On-dr-mAS" secondAttribute="centerX" id="Gp9-eq-pHJ"/>
+                                    <constraint firstItem="pJh-al-ZO1" firstAttribute="centerX" secondItem="zMP-Gx-xN8" secondAttribute="centerX" id="Irv-EL-gIo"/>
+                                    <constraint firstItem="pJh-al-ZO1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wXY-84-5fv" secondAttribute="leading" constant="8" id="Su4-8M-JhK"/>
+                                    <constraint firstItem="9aS-8w-zPH" firstAttribute="centerX" secondItem="7bF-D3-LRj" secondAttribute="centerX" id="XXG-VF-qyJ"/>
                                     <constraint firstItem="zMP-Gx-xN8" firstAttribute="top" secondItem="wXY-84-5fv" secondAttribute="top" constant="8" id="YCq-fu-YdU"/>
+                                    <constraint firstItem="5On-dr-mAS" firstAttribute="top" secondItem="wXY-84-5fv" secondAttribute="top" constant="8" id="b8b-aj-mBb"/>
+                                    <constraint firstItem="hXQ-Z7-8p0" firstAttribute="top" secondItem="5On-dr-mAS" secondAttribute="bottom" constant="8" id="bE5-GO-28L"/>
+                                    <constraint firstItem="7bF-D3-LRj" firstAttribute="leading" secondItem="5On-dr-mAS" secondAttribute="trailing" id="bZz-de-vwU"/>
+                                    <constraint firstItem="5On-dr-mAS" firstAttribute="leading" secondItem="zMP-Gx-xN8" secondAttribute="trailing" id="d0l-4s-R5l"/>
+                                    <constraint firstItem="9aS-8w-zPH" firstAttribute="top" secondItem="7bF-D3-LRj" secondAttribute="bottom" constant="8" id="ohu-aa-2HA"/>
                                     <constraint firstAttribute="bottom" secondItem="pJh-al-ZO1" secondAttribute="bottom" constant="8" id="sjL-GJ-uHx"/>
-                                    <constraint firstAttribute="height" constant="128" id="utd-W5-ZEx"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -55,7 +99,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="breadcrumbButton" destination="zMP-Gx-xN8" id="bu0-iZ-CCX"/>
+                        <outlet property="cityButton" destination="5On-dr-mAS" id="Hqd-Wd-XZz"/>
+                        <outlet property="citySwitch" destination="hXQ-Z7-8p0" id="N0m-DJ-OC5"/>
+                        <outlet property="countryButton" destination="zMP-Gx-xN8" id="F9u-Yh-Bra"/>
+                        <outlet property="countrySwitch" destination="pJh-al-ZO1" id="Odq-ia-SnT"/>
+                        <outlet property="districtButton" destination="7bF-D3-LRj" id="br3-c4-1Z2"/>
+                        <outlet property="districtSwitch" destination="9aS-8w-zPH" id="Sw3-AJ-Gc0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
