@@ -141,13 +141,13 @@
 - (void) updateUI {
 
     if (self.enabled) {
-        [self setImage:self.cachedNormalImage      forState:UIControlStateNormal];
-        [self setImage:self.cachedHighlightedImage forState:UIControlStateHighlighted];
-        [self setImage:self.cachedDisabledImage    forState:UIControlStateDisabled];
-    } else {
         [self setImage:nil forState:UIControlStateNormal];
         [self setImage:nil forState:UIControlStateHighlighted];
         [self setImage:nil forState:UIControlStateDisabled];
+    } else {
+        [self setImage:self.cachedNormalImage      forState:UIControlStateNormal];
+        [self setImage:self.cachedHighlightedImage forState:UIControlStateHighlighted];
+        [self setImage:self.cachedDisabledImage    forState:UIControlStateDisabled];
     }
 }
 
