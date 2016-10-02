@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39F30C932BCB9F8407D83C54 /* libPods-Breadcrumbs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9903D8575B2F0289C5113E37 /* libPods-Breadcrumbs.a */; };
-		5B63FE9C9B294DC8468859EF /* libPods-Breadcrumbs-BreadcrumbsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C0B49B676E8132178011FD /* libPods-Breadcrumbs-BreadcrumbsTests.a */; };
 		DB9DB9351DA14FE5003FF0FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB9341DA14FE5003FF0FB /* main.m */; };
 		DB9DB9381DA14FE5003FF0FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB9371DA14FE5003FF0FB /* AppDelegate.m */; };
 		DB9DB93B1DA14FE5003FF0FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB93A1DA14FE5003FF0FB /* ViewController.m */; };
@@ -16,28 +14,11 @@
 		DB9DB9401DA14FE5003FF0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9DB93F1DA14FE5003FF0FB /* Assets.xcassets */; };
 		DB9DB9431DA14FE5003FF0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9DB9411DA14FE5003FF0FB /* LaunchScreen.storyboard */; };
 		DB9DB94C1DA14FFC003FF0FB /* BreadcrumbButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB94B1DA14FFC003FF0FB /* BreadcrumbButton.m */; };
-		DB9DB9541DA1510F003FF0FB /* BreadcrumbButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB9531DA1510F003FF0FB /* BreadcrumbButtonTests.m */; };
 		DB9DB95F1DA19944003FF0FB /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB95E1DA19944003FF0FB /* UIImage+Tint.m */; };
 		DB9DB9621DA199E7003FF0FB /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB9611DA199E7003FF0FB /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DB9DB9561DA1510F003FF0FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB9DB9281DA14FE5003FF0FB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB9DB92F1DA14FE5003FF0FB;
-			remoteInfo = Breadcrumbs;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0037C15D827633D4686EF4DD /* Pods-Breadcrumbs-BreadcrumbsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breadcrumbs-BreadcrumbsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breadcrumbs-BreadcrumbsTests/Pods-Breadcrumbs-BreadcrumbsTests.release.xcconfig"; sourceTree = "<group>"; };
-		1C2E8D71BFBE5C0A243F360E /* Pods-Breadcrumbs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breadcrumbs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breadcrumbs/Pods-Breadcrumbs.release.xcconfig"; sourceTree = "<group>"; };
-		532E28A4DE8F91E6691563D0 /* Pods-Breadcrumbs-BreadcrumbsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breadcrumbs-BreadcrumbsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breadcrumbs-BreadcrumbsTests/Pods-Breadcrumbs-BreadcrumbsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		62C0B49B676E8132178011FD /* libPods-Breadcrumbs-BreadcrumbsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Breadcrumbs-BreadcrumbsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CE42CFE0BA7CDBD4F31DD73 /* Pods-Breadcrumbs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breadcrumbs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breadcrumbs/Pods-Breadcrumbs.debug.xcconfig"; sourceTree = "<group>"; };
-		9903D8575B2F0289C5113E37 /* libPods-Breadcrumbs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Breadcrumbs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9DB9301DA14FE5003FF0FB /* Breadcrumbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breadcrumbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9DB9341DA14FE5003FF0FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB9DB9361DA14FE5003FF0FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,9 +31,6 @@
 		DB9DB9441DA14FE5003FF0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB9DB94A1DA14FFC003FF0FB /* BreadcrumbButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreadcrumbButton.h; sourceTree = "<group>"; };
 		DB9DB94B1DA14FFC003FF0FB /* BreadcrumbButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreadcrumbButton.m; sourceTree = "<group>"; };
-		DB9DB9511DA1510F003FF0FB /* BreadcrumbsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreadcrumbsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB9DB9531DA1510F003FF0FB /* BreadcrumbButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreadcrumbButtonTests.m; sourceTree = "<group>"; };
-		DB9DB9551DA1510F003FF0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB9DB95D1DA19944003FF0FB /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
 		DB9DB95E1DA19944003FF0FB /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
 		DB9DB9601DA199E7003FF0FB /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
@@ -64,38 +42,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39F30C932BCB9F8407D83C54 /* libPods-Breadcrumbs.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB9DB94E1DA1510F003FF0FB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B63FE9C9B294DC8468859EF /* libPods-Breadcrumbs-BreadcrumbsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7465F61FE53606EAAC671A32 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9903D8575B2F0289C5113E37 /* libPods-Breadcrumbs.a */,
-				62C0B49B676E8132178011FD /* libPods-Breadcrumbs-BreadcrumbsTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		DB9DB9271DA14FE5003FF0FB = {
 			isa = PBXGroup;
 			children = (
 				DB9DB9321DA14FE5003FF0FB /* Breadcrumbs */,
-				DB9DB9521DA1510F003FF0FB /* BreadcrumbsTests */,
 				DB9DB9311DA14FE5003FF0FB /* Products */,
-				E84C13C914264D3499FC8D9F /* Pods */,
-				7465F61FE53606EAAC671A32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				DB9DB9301DA14FE5003FF0FB /* Breadcrumbs.app */,
-				DB9DB9511DA1510F003FF0FB /* BreadcrumbsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,26 +94,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DB9DB9521DA1510F003FF0FB /* BreadcrumbsTests */ = {
-			isa = PBXGroup;
-			children = (
-				DB9DB9531DA1510F003FF0FB /* BreadcrumbButtonTests.m */,
-				DB9DB9551DA1510F003FF0FB /* Info.plist */,
-			);
-			path = BreadcrumbsTests;
-			sourceTree = "<group>";
-		};
-		E84C13C914264D3499FC8D9F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6CE42CFE0BA7CDBD4F31DD73 /* Pods-Breadcrumbs.debug.xcconfig */,
-				1C2E8D71BFBE5C0A243F360E /* Pods-Breadcrumbs.release.xcconfig */,
-				532E28A4DE8F91E6691563D0 /* Pods-Breadcrumbs-BreadcrumbsTests.debug.xcconfig */,
-				0037C15D827633D4686EF4DD /* Pods-Breadcrumbs-BreadcrumbsTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,12 +101,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB9DB9471DA14FE5003FF0FB /* Build configuration list for PBXNativeTarget "Breadcrumbs" */;
 			buildPhases = (
-				82561E3291816596053C83B1 /* [CP] Check Pods Manifest.lock */,
 				DB9DB92C1DA14FE5003FF0FB /* Sources */,
 				DB9DB92D1DA14FE5003FF0FB /* Frameworks */,
 				DB9DB92E1DA14FE5003FF0FB /* Resources */,
-				6E613918C0ED6E364AEA8D27 /* [CP] Embed Pods Frameworks */,
-				20044B45EF7654962DA5D792 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,27 +113,6 @@
 			productName = Breadcrumbs;
 			productReference = DB9DB9301DA14FE5003FF0FB /* Breadcrumbs.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DB9DB9501DA1510F003FF0FB /* BreadcrumbsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB9DB9581DA1510F003FF0FB /* Build configuration list for PBXNativeTarget "BreadcrumbsTests" */;
-			buildPhases = (
-				204AD2CF5077D959C10EE2DC /* [CP] Check Pods Manifest.lock */,
-				DB9DB94D1DA1510F003FF0FB /* Sources */,
-				DB9DB94E1DA1510F003FF0FB /* Frameworks */,
-				DB9DB94F1DA1510F003FF0FB /* Resources */,
-				6E5C40F5EA29AA7E8E8242F2 /* [CP] Embed Pods Frameworks */,
-				9637C495C4B5D108C5B579B8 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DB9DB9571DA1510F003FF0FB /* PBXTargetDependency */,
-			);
-			name = BreadcrumbsTests;
-			productName = BreadcrumbsTests;
-			productReference = DB9DB9511DA1510F003FF0FB /* BreadcrumbsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -213,10 +125,6 @@
 				TargetAttributes = {
 					DB9DB92F1DA14FE5003FF0FB = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					DB9DB9501DA1510F003FF0FB = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = DB9DB92F1DA14FE5003FF0FB;
 					};
 				};
 			};
@@ -234,7 +142,6 @@
 			projectRoot = "";
 			targets = (
 				DB9DB92F1DA14FE5003FF0FB /* Breadcrumbs */,
-				DB9DB9501DA1510F003FF0FB /* BreadcrumbsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,107 +157,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB9DB94F1DA1510F003FF0FB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		20044B45EF7654962DA5D792 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breadcrumbs/Pods-Breadcrumbs-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		204AD2CF5077D959C10EE2DC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6E5C40F5EA29AA7E8E8242F2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breadcrumbs-BreadcrumbsTests/Pods-Breadcrumbs-BreadcrumbsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E613918C0ED6E364AEA8D27 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breadcrumbs/Pods-Breadcrumbs-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		82561E3291816596053C83B1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9637C495C4B5D108C5B579B8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breadcrumbs-BreadcrumbsTests/Pods-Breadcrumbs-BreadcrumbsTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB9DB92C1DA14FE5003FF0FB /* Sources */ = {
@@ -366,23 +173,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB9DB94D1DA1510F003FF0FB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB9DB9541DA1510F003FF0FB /* BreadcrumbButtonTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DB9DB9571DA1510F003FF0FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DB9DB92F1DA14FE5003FF0FB /* Breadcrumbs */;
-			targetProxy = DB9DB9561DA1510F003FF0FB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DB9DB93C1DA14FE5003FF0FB /* Main.storyboard */ = {
@@ -488,7 +279,6 @@
 		};
 		DB9DB9481DA14FE5003FF0FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CE42CFE0BA7CDBD4F31DD73 /* Pods-Breadcrumbs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Breadcrumbs/Info.plist;
@@ -500,39 +290,12 @@
 		};
 		DB9DB9491DA14FE5003FF0FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C2E8D71BFBE5C0A243F360E /* Pods-Breadcrumbs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Breadcrumbs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.x0000ff.Breadcrumbs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		DB9DB9591DA1510F003FF0FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 532E28A4DE8F91E6691563D0 /* Pods-Breadcrumbs-BreadcrumbsTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = BreadcrumbsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.x0000ff.BreadcrumbsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breadcrumbs.app/Breadcrumbs";
-			};
-			name = Debug;
-		};
-		DB9DB95A1DA1510F003FF0FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0037C15D827633D4686EF4DD /* Pods-Breadcrumbs-BreadcrumbsTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = BreadcrumbsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.x0000ff.BreadcrumbsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breadcrumbs.app/Breadcrumbs";
 			};
 			name = Release;
 		};
@@ -553,15 +316,6 @@
 			buildConfigurations = (
 				DB9DB9481DA14FE5003FF0FB /* Debug */,
 				DB9DB9491DA14FE5003FF0FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DB9DB9581DA1510F003FF0FB /* Build configuration list for PBXNativeTarget "BreadcrumbsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB9DB9591DA1510F003FF0FB /* Debug */,
-				DB9DB95A1DA1510F003FF0FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
