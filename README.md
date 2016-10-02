@@ -15,3 +15,7 @@ Has 3 states:
 ## Attention!
 
 > Unfortunately changing the state can't be animated!
+
+# License
+
+Released under the MIT license. See `LICENSE.md` for details.
