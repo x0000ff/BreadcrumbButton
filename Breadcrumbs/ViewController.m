@@ -7,21 +7,18 @@
 //
 
 #import "ViewController.h"
+#import "BreadcrumbButton.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet BreadcrumbButton * breadcrumbButton;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)switchValueChanged:(UISwitch *)sender {
+    self.breadcrumbButton.enabled = sender.isOn;
 }
 
 @end

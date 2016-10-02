@@ -10,6 +10,4 @@
 
 @interface BreadcrumbButton : UIButton
 
-@property (assign, nonatomic) BOOL isSelected;
-
 @end

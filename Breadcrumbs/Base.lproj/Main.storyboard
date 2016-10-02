@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,52 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wXY-84-5fv">
+                                <rect key="frame" x="20" y="28" width="560" height="128"/>
+                                <subviews>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pJh-al-ZO1">
+                                        <rect key="frame" x="8" y="89" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="W6Y-Ng-yFw"/>
+                                        </connections>
+                                    </switch>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMP-Gx-xN8" customClass="BreadcrumbButton">
+                                        <rect key="frame" x="8" y="8" width="76" height="30"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="4" maxX="4" maxY="4"/>
+                                        <inset key="imageEdgeInsets" minX="-7" minY="2" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Button" image="ic-arrow"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSelected" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="zMP-Gx-xN8" firstAttribute="leading" secondItem="wXY-84-5fv" secondAttribute="leading" constant="8" id="B41-zR-Jpb"/>
+                                    <constraint firstItem="pJh-al-ZO1" firstAttribute="leading" secondItem="wXY-84-5fv" secondAttribute="leading" constant="8" id="Su4-8M-JhK"/>
+                                    <constraint firstItem="zMP-Gx-xN8" firstAttribute="top" secondItem="wXY-84-5fv" secondAttribute="top" constant="8" id="YCq-fu-YdU"/>
+                                    <constraint firstAttribute="bottom" secondItem="pJh-al-ZO1" secondAttribute="bottom" constant="8" id="sjL-GJ-uHx"/>
+                                    <constraint firstAttribute="height" constant="128" id="utd-W5-ZEx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wXY-84-5fv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="3Ga-3l-o64"/>
+                            <constraint firstItem="wXY-84-5fv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="RxQ-qH-BSU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wXY-84-5fv" secondAttribute="trailing" id="ghB-JE-uIf"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="breadcrumbButton" destination="zMP-Gx-xN8" id="bu0-iZ-CCX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic-arrow" width="10" height="10"/>
+    </resources>
 </document>

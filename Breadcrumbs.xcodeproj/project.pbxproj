@@ -17,6 +17,8 @@
 		DB9DB9431DA14FE5003FF0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9DB9411DA14FE5003FF0FB /* LaunchScreen.storyboard */; };
 		DB9DB94C1DA14FFC003FF0FB /* BreadcrumbButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB94B1DA14FFC003FF0FB /* BreadcrumbButton.m */; };
 		DB9DB9541DA1510F003FF0FB /* BreadcrumbButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB9531DA1510F003FF0FB /* BreadcrumbButtonTests.m */; };
+		DB9DB95F1DA19944003FF0FB /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB95E1DA19944003FF0FB /* UIImage+Tint.m */; };
+		DB9DB9621DA199E7003FF0FB /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9DB9611DA199E7003FF0FB /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		DB9DB9511DA1510F003FF0FB /* BreadcrumbsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreadcrumbsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9DB9531DA1510F003FF0FB /* BreadcrumbButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreadcrumbButtonTests.m; sourceTree = "<group>"; };
 		DB9DB9551DA1510F003FF0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9DB95D1DA19944003FF0FB /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		DB9DB95E1DA19944003FF0FB /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		DB9DB9601DA199E7003FF0FB /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		DB9DB9611DA199E7003FF0FB /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,8 @@
 		DB9DB9321DA14FE5003FF0FB /* Breadcrumbs */ = {
 			isa = PBXGroup;
 			children = (
+				DB9DB95D1DA19944003FF0FB /* UIImage+Tint.h */,
+				DB9DB95E1DA19944003FF0FB /* UIImage+Tint.m */,
 				DB9DB94A1DA14FFC003FF0FB /* BreadcrumbButton.h */,
 				DB9DB94B1DA14FFC003FF0FB /* BreadcrumbButton.m */,
 				DB9DB9361DA14FE5003FF0FB /* AppDelegate.h */,
@@ -116,6 +124,8 @@
 				DB9DB9411DA14FE5003FF0FB /* LaunchScreen.storyboard */,
 				DB9DB9441DA14FE5003FF0FB /* Info.plist */,
 				DB9DB9331DA14FE5003FF0FB /* Supporting Files */,
+				DB9DB9601DA199E7003FF0FB /* UIImage+Color.h */,
+				DB9DB9611DA199E7003FF0FB /* UIImage+Color.m */,
 			);
 			path = Breadcrumbs;
 			sourceTree = "<group>";
@@ -349,6 +359,8 @@
 			files = (
 				DB9DB94C1DA14FFC003FF0FB /* BreadcrumbButton.m in Sources */,
 				DB9DB93B1DA14FE5003FF0FB /* ViewController.m in Sources */,
+				DB9DB95F1DA19944003FF0FB /* UIImage+Tint.m in Sources */,
+				DB9DB9621DA199E7003FF0FB /* UIImage+Color.m in Sources */,
 				DB9DB9381DA14FE5003FF0FB /* AppDelegate.m in Sources */,
 				DB9DB9351DA14FE5003FF0FB /* main.m in Sources */,
 			);
